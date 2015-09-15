@@ -1,1 +1,2 @@
-# csm10j-lab03
+csm10j-lab03
+loops and such
