@@ -10,7 +10,6 @@ public class Lab03_B_For {
     int secondNum = 0;
     int currentNum;
     
-    while(firstNum >= secondNum){
     System.out.println( "Input the first number:");
     firstNum = console.nextInt();
     
@@ -18,7 +17,7 @@ public class Lab03_B_For {
     
     System.out.println( "Input the second number:");
     secondNum = console.nextInt();
-    if(firstNum >= secondNum){System.out.println("Make sure first number is less than second number!") }}
+    
     System.out.println( "All odd numbers between " + firstNum + " and " + secondNum + " inclusive");
         for (int i = currentNum; i <= secondNum; i++) {
             if (i %2 == 1)
