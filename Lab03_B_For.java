@@ -11,7 +11,7 @@ public class Lab03_B_For {
     int currentNum = 0;
     
     while(firstNum >= secondNum)
-    
+    {
     System.out.println( "Input the first number:");
     firstNum = console.nextInt();
     
@@ -24,7 +24,7 @@ public class Lab03_B_For {
     {
         System.out.println("Sorry, your first number must be less than the second.");            
     }
-    
+    }
     System.out.println( "All odd numbers between " + firstNum + " and " + secondNum + " inclusive");
         for (int i = currentNum; i <= secondNum; i++) {
             if (i %2 == 1)
