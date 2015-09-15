@@ -1,15 +1,17 @@
 import java.util.*;
 
-public class Lab03_B_DoWhile.java {
+public class Lab03_B_DoWhile {
     
     static Scanner console = new Scanner(System.in);
    
     public static void main(String[] args) {
     
-    int firstNum;
-    int secondNum;
-    int currentNum;
+    int firstNum = 1;
+    int secondNum = 0;
+    int currentNum = 0;
     
+    while(firstNum >= secondNum)
+    {
     System.out.println( "Input the first number:");
     firstNum = console.nextInt();
     
@@ -18,6 +20,11 @@ public class Lab03_B_DoWhile.java {
     System.out.println( "Input the second number:");
     secondNum = console.nextInt();
     
+    if (firstNum >= secondNum)
+    {
+        System.out.println("Sorry, your first number must be less than the second.");            
+    }
+    }
     System.out.println( "All odd numbers between " + firstNum + " and " + secondNum + " inclusive");
         do 
         {
