@@ -1,11 +1,11 @@
 import java.util.*;
 
-public class Lab03_B_For.java {
+public class Lab03_B_For {
 
     static Scanner console = new Scanner(System.in);
     
     public static void main(String[] args) {
-        // TODO code application logic here
+       
     int firstNum = 1;
     int secondNum = 0;
     int currentNum;
