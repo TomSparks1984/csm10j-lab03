@@ -1,6 +1,6 @@
-import java.util.*;/**
+import java.util.*;
 
-public class Lab03_A.java {
+public class Lab03_A {
     
     static Scanner console = new Scanner(System.in); 
     public static void main(String[] args) {
